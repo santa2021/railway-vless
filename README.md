@@ -7,8 +7,8 @@ There is no keep-alive policy in the code. The platform is a docker container. I
 &lt;no&gt;
 &lt;no&gt;
 
--/start starts x-ray
--/info View system information
--/status View the table of system processes
+/start starts x-ray
+/info View system information
+/status View the table of system processes
 
  
