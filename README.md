@@ -1,5 +1,3 @@
-&gt;
-
 -Protocol: vless + ws, tls removed from the outermost gateway of the platform. Of course you can also change it to vmess, trojan and other protocols.
 -Path ws: /api
 -User UUID: see config.yaml for details.
