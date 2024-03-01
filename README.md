@@ -6,8 +6,5 @@ There is no keep-alive policy in the code. The platform is a docker container. I
 
 /start starts x-ray
 
-/info View system information
-
-/status View the table of system processes
 
  
