@@ -28,7 +28,7 @@ app.use(
     changeOrigin: true,
     ws: true,
     pathRewrite: {
-      "^/api": "/qwe",
+      "^/api": "/vless",
     },
     onProxyReq: function onProxyReq(proxyReq, req, res) {},
   })
