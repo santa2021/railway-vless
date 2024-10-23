@@ -14,9 +14,9 @@ app.get("/start", (req, res) => {
   let cmdStr = "chmod +x ./web && ./web -c ./config.yaml >/dev/null 2>&1 &";
   exec(cmdStr, function (err, stdout, stderr) {
     if (err) {
-      res.send("命令行执行错误：" + err);
+      res.send("Ошибка выполнения командной строки：" + err);
     } else {
-      res.send("命令行执行结果：" + "启动成功!");
+      res.send("Результаты выполнения командной строки：" + "Successful!");
     }
   });
 });
