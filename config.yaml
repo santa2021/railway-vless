@@ -2,7 +2,7 @@ log:
   loglevel: info
 dns:
   servers:
-  - https+local://8.8.8.8/dns-query
+  - https+local://1.1.1.1/dns-query
 inbounds:
 - port: 8080
   protocol: vless
